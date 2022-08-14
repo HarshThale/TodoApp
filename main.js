@@ -2,6 +2,7 @@ let submit = document.getElementById('btn-submit');
 let items = document.getElementById('items');
 
 submit.addEventListener('click', addItem);
+items.addEventListener('click', listInteraction)
 
 
 function addItem(e) {
@@ -48,4 +49,18 @@ function addItem(e) {
 
     //reset value after clicking button
     input.value = '';
+}
+
+
+//complete and delete button interaction function
+function listInteraction(e) {
+    if(e.target.classList[0] == 'rm-btn') {
+        e.target.parentElement.parentElement.remove();
+    }
+    if(e.target.classList[0] == 'complete-btn') {
+        e.target.parentElement.children[1].remove();
+
+        let changeBg = e.target.parentElement.children[0];
+        changeBg.style.backgroundColor = '#e9993d';
+    }
 }
