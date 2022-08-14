@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background:linear-gradient(90deg ,#ec2c2c,#d29e62,#e9993d );
+}
+
+.heading-main {
+    font-size: 3rem;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    padding: 60px 0;
+    color: white;
+}
+
+.userinput-box {
+    margin-top: 2rem;
+}
+
+.input-box {
+    width: 25rem;
+    height: 2.5rem;
+    padding: 8px;
+}
+
+.btn-sub {
+    width: 10rem;
+    height: 2.5rem;
+}
