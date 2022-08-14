@@ -34,3 +34,31 @@ body{
     width: 10rem;
     height: 2.5rem;
 }
+
+.itemsList {
+    margin-top: 1.5rem;
+    padding: 0 22%;
+    list-style: none;
+    align-items: center;
+}
+
+.item-group {
+    border: 1px solid black;
+    background: white;
+    margin: 1rem 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-name {
+    color: white;
+}
+
+.mp {
+    padding: 3px;
+}
+
+.complete-btn {
+    margin-right: 1rem;
+}
